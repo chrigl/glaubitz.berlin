@@ -1,0 +1,62 @@
+## Basic Configuration
+
+baseurl = "https://glaubitz.berlin" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Christoph Glaubitz"
+title = "Christoph Glaubitz"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Christoph Glaubitz"
+intro = "Working under the clouds"
+description = "Now @iNNOVO Cloud GmbH. Previously @SysEleven, @neofonie and @Zettwerk. <br/>"
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Christoph Glaubitz"
+keywords = "minimalist,blog,gopher,go,python,kubernetes,openstack,developer"
+
+## Social Accounts
+[params.social]
+github = "chrigl"
+xing = "Christoph_Glaubitz"
+linkedin = "chrigl"
+twitter = "chrigl_"
+email = "chris@glaubitz.berlin"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Christoph Glaubitz. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
+[[menu.main]]
+    name = "blog"
+    weight = 200
+    identifier = "blog"
+    url = "https://chrigl.de/"
+[[menu.main]]
+    name = "contact"
+    identifier = "contact"
+    weight = 300
+    url = "/contact/"
