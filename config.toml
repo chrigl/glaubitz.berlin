@@ -40,7 +40,7 @@ email = "chris@glaubitz.berlin"
 
 ## Extras
 [params.extra]
-copyright = "© 2018. Christoph Glaubitz. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2020. Christoph Glaubitz. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
 highlightjs = true
 
